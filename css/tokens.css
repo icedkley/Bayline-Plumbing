@@ -1,0 +1,54 @@
+/* =========================================================
+   Bayline Plumbing — Design Tokens
+   Only CSS custom properties. No selectors, no rules.
+   ========================================================= */
+
+:root {
+  /* Colors */
+  --navy-900: #0B1F33;
+  --navy-800: #102A45;
+  --blue-600: #1E6FBF;
+  --amber-500: #E8871E;
+  --bg-light: #F7F8FA;
+  --navy-tint: #EEF2F8;
+  --border: #EDEFF3;
+  --text-muted: #3D4450;
+  --text: #15181D;
+  --white: #FFFFFF;
+
+  /* Spacing scale */
+  --sp-1: 4px;
+  --sp-2: 8px;
+  --sp-3: 12px;
+  --sp-4: 16px;
+  --sp-5: 20px;
+  --sp-6: 24px;
+  --sp-8: 32px;
+  --sp-10: 40px;
+  --sp-12: 48px;
+  --sp-16: 64px;
+  --sp-20: 96px;
+  --sp-32: 128px;
+
+  /* Radius */
+  --r-input: 4px;
+  --r-btn: 6px;
+  --r-card: 8px;
+
+  /* Shadows */
+  --shadow-sm: 0 1px 3px rgba(11, 31, 51, 0.06), 0 1px 2px rgba(11, 31, 51, 0.04);
+
+  /* Typography */
+  --font-base: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  --fs-h1: clamp(2rem, 6vw, 4rem);
+  --fs-h2: clamp(1.5rem, 3.5vw, 2.25rem);
+  --fs-h3: clamp(1.125rem, 2vw, 1.375rem);
+  --fs-body: 1rem;
+  --fs-small: 0.875rem;
+  --lh-tight: 1.15;
+  --lh-body: 1.6;
+
+  /* Layout */
+  --container: 1200px;
+  --container-pad: var(--sp-6);
+}

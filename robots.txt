@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+
+# Utility pages — do not index
+Disallow: /thank-you.html
+Disallow: /404.html
+Disallow: /privacy-policy.html
+Disallow: /accessibility.html
+
+Sitemap: https://baylineplumbing.example/sitemap.xml
